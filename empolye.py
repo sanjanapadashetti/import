@@ -1,6 +1,6 @@
 import sys
-   #check if correct number of argument a
-if len(sys.argv) != 5:
+   #check if correct number of argument 
+if len(sys.argv) !=5:
    print("Usage: python empoloye.py <name> <id> <salary> <experience>") 
    sys.exit(1)
 
@@ -13,6 +13,6 @@ experience = sys.argv[4]
 
 print("Script name:", script_name)
 print("employe name:", name)
-print("empolye id:",id)
-print("employe salary:",salary)
-print("employe expirence:",experience)
+print("id number:",id)
+print(" salary:",salary)
+print("expirence:",experience)
