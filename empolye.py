@@ -1,13 +1,13 @@
 import sys
    #check if correct number of argument a
 if len(sys.argv) != 5:
-   print("Usage: python empoloye.py <name> <userid> <salary> <experience>") 
+   print("Usage: python empoloye.py <name> <id> <salary> <experience>") 
    sys.exit(1)
 
 # sys.argv[0] is always the program name
 script_name = sys.argv[0]
 name = sys.argv[1]
-userid = sys.argv[2]
+id = sys.argv[2]
 salary = sys.argv[3]
 experience = sys.argv[4]
 
